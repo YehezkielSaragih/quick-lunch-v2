@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QuickLunchV2</string>
+
+    <!-- Order Page -->
+    <string name="order_page">Order Page</string>
+    <string name="menu_item_title">Menu - Price</string>
+    <string name="hint_qty">Quantity</string>
+    <string name="hint_note">Note …</string>
+    <string name="switch_spicy">Spicy</string>
+    <string name="btn_go_confirm">Go to Confirmation</string>
+    <string name="btn_go_summary">Go to Summary</string>
+
+    <!-- Confirmation Page -->
+    <string name="confirmation_page">Confirmation Page</string>
+    <string name="order_item_title">Menu xQty - Spicy/Not</string>
+    <string name="order_item_note">Note</string>
+    <string name="order_item_price">Rp%1$d</string>
+    <string name="total_order_count">Total Items: %1$dx</string>
+    <string name="total_order_price">Total Price: Rp%1$d</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_confirm">Confirm</string>
+
+    <!-- Summary Page -->
+    <string name="summary_page">All Orders Summary</string>
+    <string name="btn_continue_order">Continue Ordering</string>
+    <string name="btn_reset">Reset</string>
+</resources>

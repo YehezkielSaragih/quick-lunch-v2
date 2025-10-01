@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuickLunchV2">
+
+        <!-- Launcher Activity -->
+        <activity
+            android:name=".ui.activity.OrderActivity"
+            android:exported="true"
+            android:theme="@style/Theme.QuickLunchV2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Confirmation Activity -->
+        <activity
+            android:name=".ui.activity.ConfirmationActivity"
+            android:exported="true"
+            android:label="@string/confirmation_page"
+            android:theme="@style/Theme.QuickLunchV2" />
+
+        <!-- Summary Activity -->
+        <activity
+            android:name=".ui.activity.SummaryActivity"
+            android:exported="true"
+            android:label="@string/summary_page"
+            android:theme="@style/Theme.QuickLunchV2" />
+
+    </application>
+
+</manifest>
